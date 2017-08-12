@@ -17,8 +17,8 @@ Also, I have filtered out the sensor_msgs/NavStat msgs from the rosbags given on
 				
 				https://github.com/cra-ros-pkg/robot_localization
 
-Because while using the simulator I already have an odom source and IMU msgs, so I don't need those msgs from the rosbag as they will conflict in case I directly play them.
+Because while using the simulator I already have an odom source and IMU msgs, so I don't need those msgs from the rosbag as they will conflict in case I directly play them. When we run this on the car we don't need the rosbag we will just the GPS sensor for getting the lat, longs.
 
-When we run this on the car, we would have a different odom source(visual odomotery). This example is only an attempt to show how we can configure the .yaml and launch files for our case.
+Also, we would have a different odom source(visual odomotery). This example is only an attempt to show how we can configure the .yaml and launch files for our case.
 
 Hope this was helpful!
