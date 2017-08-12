@@ -3,7 +3,8 @@ You need to have the evarobot simulator for running this example.
 After you have installed the simulator and other dependencies.
 
 
-Do a: 		roslaunch ros_localization_evarobot dual_ekf_navsat_example.launch 
+Do a: 		
+		roslaunch ros_localization_evarobot dual_ekf_navsat_example.launch 
 
 In a seperate terminal go to the bag directory of the project and do a:
 
@@ -15,7 +16,7 @@ Also, I have filtered out the sensor_msgs/NavStat msgs from the rosbags given on
 				
 				https://github.com/cra-ros-pkg/robot_localization
 
-Because while using the simulator I already have an odom source and IMU msgs, so I don't need those msgs from the rosbag as they will conflict in case I directly play those as well.
+Because while using the simulator I already have an odom source and IMU msgs, so I don't need those msgs from the rosbag as they will conflict in case I directly play them.
 
 When we run this on the car, we would have a different odom source(visual odomotery). This example is only an attempt to show how we can configure the .yaml and launch files for our case.
 
