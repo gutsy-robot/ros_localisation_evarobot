@@ -4,7 +4,8 @@ After you have installed the simulator and other dependencies.
 
 
 Do a: 		
-		roslaunch ros_localization_evarobot dual_ekf_navsat_example.launch 
+		
+	roslaunch ros_localization_evarobot dual_ekf_navsat_example.launch 
 
 In a seperate terminal go to the bag directory of the project and do a:
 
