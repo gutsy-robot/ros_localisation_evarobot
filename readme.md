@@ -1,9 +1,15 @@
 You need to have the evarobot simulator for running this example.
 
+You can install it by:
+
+	apt-get install ros-indigo-evarobot-*
+
 After you have installed the simulator and other dependencies.
+	
+	roslaunch evarobot_gazebo evarobot.launch
 
 
-Do a: 		
+In another terminal, 		
 		
 	roslaunch ros_localization_evarobot dual_ekf_navsat_example.launch 
 
